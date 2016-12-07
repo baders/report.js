@@ -1,6 +1,6 @@
 function main() {
 var newSpreadSheet = SpreadsheetApp.openByUrl("https://docs.google.com/spreadsheets/d/10joMWl7QzPi6qO9O4qg_rrI_nC05tMMHQtg831k_FqE/edit#gid=0");
-  
+  //komentarz
 var numOfSheets = newSpreadSheet.getSheets(); 
  if(numOfSheets.length>0){
  for(var i=1,len=numOfSheets.length;i<len;i++)
